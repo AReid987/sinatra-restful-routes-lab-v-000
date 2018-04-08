@@ -13,7 +13,7 @@ class ApplicationController < Sinatra::Base
     #binding.pry
   end
 
-  get '/recipes/:id' do 
+  get '/recipes/:id' do
   end
   
 end
