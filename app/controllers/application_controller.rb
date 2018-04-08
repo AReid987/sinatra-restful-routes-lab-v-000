@@ -17,5 +17,5 @@ class ApplicationController < Sinatra::Base
     binding.pry 
     @recipe = Recipe.find_by_id()
   end
-  
+
 end
