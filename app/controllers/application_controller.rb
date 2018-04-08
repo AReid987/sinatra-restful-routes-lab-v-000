@@ -16,11 +16,11 @@ class ApplicationController < Sinatra::Base
   get '/recipes/:id' do
     #binding.pry
     @recipe = Recipe.find_by_id(params[:id])
-    erb :show 
+    erb :show
   end
 
   get '/recipes/:id/edit' do
     
   end
-  
+
 end
